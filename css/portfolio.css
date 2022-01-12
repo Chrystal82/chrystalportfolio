@@ -1,0 +1,123 @@
+body {
+	font-family: "Arimo", sans-serif;
+	background: rgb(184, 184, 183);
+	background: linear-gradient(
+		90deg,
+		rgba(184, 184, 183, 1) 10%,
+		rgba(228, 228, 226, 1) 25%,
+		rgba(228, 228, 226, 1) 75%,
+		rgba(184, 184, 183, 1) 90%
+	);
+}
+
+.myLogo {
+	margin: auto;
+	margin-bottom: 1rem;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+}
+
+.logo {
+	border-radius: 4rem;
+}
+
+.socials {
+	margin-top: 1rem;
+}
+
+a,
+a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.card {
+	padding: 5px;
+}
+
+#cards_landscape_wrap-2 {
+	text-align: center;
+}
+#cards_landscape_wrap-2 .container {
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+#cards_landscape_wrap-2 a {
+	text-decoration: none;
+	outline: none;
+}
+#cards_landscape_wrap-2 .card-flyer {
+	border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box {
+	overflow: hidden;
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+	-webkit-transition: all 0.9s ease;
+	-moz-transition: all 0.9s ease;
+	-o-transition: all 0.9s ease;
+	-ms-transition: all 0.9s ease;
+	transition: all 0.9 ease;
+}
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+	opacity: 0.7;
+	-webkit-transform: scale(1.15);
+	-moz-transform: scale(1.15);
+	-ms-transform: scale(1.15);
+	-o-transform: scale(1.15);
+	transform: scale(1.15);
+}
+#cards_landscape_wrap-2 .card-flyer .text-box {
+	text-align: center;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+	padding: 30px 18px;
+}
+#cards_landscape_wrap-2 .card-flyer {
+	margin-top: 50px;
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+}
+#cards_landscape_wrap-2 .card-flyer:hover {
+	box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin-top: 50px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	color: #4d4d4d;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box h6 {
+	margin-top: 0px;
+	margin-bottom: 4px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #757575;
+}
+
+.btn {
+	background-color: #b8b8b7;
+	color: white;
+	margin: 15px;
+}
+
+.btn:hover {
+	color: rgb(0, 0, 0);
+}
