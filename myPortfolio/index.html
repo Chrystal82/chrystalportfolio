@@ -2,9 +2,25 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Primary Meta Tags -->
+    <title>Chrystal Gilbert Portfolio</title>
+    <meta name="title" content="Chrystal Gilbert Portfolio">
+    <meta name="description" content="My Portfolio Website">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://chrystal82.github.io/chrystalportfolio/">
+    <meta property="og:title" content="Chrystal Gilbert Portfolio">
+    <meta property="og:description" content="My Portfolio Website">
+    <meta property="og:image" content="myLogo500.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://chrystal82.github.io/chrystalportfolio/">
+    <meta property="twitter:title" content="Chrystal Gilbert Portfolio">
+    <meta property="twitter:description" content="My Portfolio Website">
+    <meta property="twitter:image" content="myLogo500.png">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1" />-->
 
     <!-- Bootstrap CSS -->
     <!--<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />-->
@@ -25,13 +41,17 @@
 <body>
 
     <header>
-        <div class="myLogo">
-            <a href="#"><img class="logo" src="img/myLogo500.png" height="300" width="300"/></a>
-            <div class="socials">
-                <a class="btn" href="https://www.linkedin.com/in/chrystal-g/" role="button"><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn" href="https://github.com/Chrystal82" role="button"><i class="fab fa-github"></i></a>
-                <a role="button" class="btn btn-link" href="mailto:chrystalgilbertdev@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                <a href="https://github.com/Chrystal82/chrystalportfolio" target="_blank" class="btn">Code for this Portfolio</a>
+        <div class="container">
+            <div class="col">
+                <div class="myLogo cols-sm-6">
+                    <a href="#"><img class="logo" src="img/myLogo500.png" height="300" width="300"/></a>
+                        <div class="socials">
+                            <a class="btn" href="https://www.linkedin.com/in/chrystal-g/" role="button"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn" href="https://github.com/Chrystal82" role="button"><i class="fab fa-github"></i></a>
+                            <a role="button" class="btn btn-link" href="mailto:chrystalgilbertdev@gmail.com"><i class="fa fa-envelope-o"></i></a>
+                            <a href="https://github.com/Chrystal82/chrystalportfolio" target="_blank" class="btn">Code for this Portfolio</a>
+                        </div>
+                </div>
             </div>
         </div>
     </header>
@@ -40,14 +60,14 @@
     <main>
     <div id="cards_landscape_wrap-2">
         <div class="container" style="width: 50rem">
-            <div class="row row-cols-1 row-cols-sm-2 g-4" style="width: 50rem">
+                <div class="row row-cols-1 row-cols-lg-2 g-4" style="width: 50rem">
 
-                <div class="col">
-                    <div class="card-flyer">
-                        <div class="text-box">
-                            <div class="image-box">
-                                <div class="card bg-transparent">
-                                    <a href="https://chrystal82.github.io/custombrownies/" target="_blank"><img src="img/medbestbrownieslogo.png" class="card-img-top" alt="best brownies website logo"></a>
+                    <div class="col">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <div class="card bg-transparent">
+                                        <a href="https://chrystal82.github.io/custombrownies/" target="_blank"><img src="img/medbestbrownieslogo.png" class="card-img-top" alt="best brownies website logo"></a>
                                     <div class="text-container">
                                         <h6>Brownie Website</h6>
                                         <p>A custom brownie bakery website designed with HTML/CSS/JS/Bootstrap/SCSS</p>
@@ -122,6 +142,27 @@
                         </div><!--closing text box-->
                     </div><!--closing card-flyer box-->    
                 </div><!--closing col--> 
+                
+                <div class="col">
+                    <div class="card-flyer">
+                        <div class="text-box">
+                            <div class="image-box">
+                                <div class="card bg-transparent">
+                                    <a href="https://chrystal82.github.io/pomodoro-timer/" target="_blank"><img src="img/2022-03-07.png" class="card-img-top" alt="ice cream matching game logo"></a>
+                                    <div class="text-container">
+                                        <h6>Pomodoro Timer</h6>
+                                        <p>Pomodoro Timer designed with HTML/CSS/JavaScript</p>
+                                    </div><!--closing text-container-->
+                                <div class="card-body">
+                                    <a href="https://chrystal82.github.io/pomodoro-timer/" target="_blank" class="btn">Link</a>
+                                    <a href="https://github.com/Chrystal82/pomodoro-timer" target="_blank" class="btn">Code</a>
+                                </div><!--closing card-body div-->
+                                </div><!--closing card div-->
+                            </div><!--closing image-box-->  
+                        </div><!--closing text box-->
+                    </div><!--closing card-flyer box-->    
+                </div><!--closing col--> 
+
             </div><!--closing row-->
         </div><!--closing container-->
     </div><!--closing landscape_wrap-->
